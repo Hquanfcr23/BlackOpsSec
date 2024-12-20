@@ -1,0 +1,4 @@
+<Directory "D:/Code/fullstack/MyProjects/Blog/write-up/doc">
+    Order Deny,Allow
+    Deny from all
+</Directory>

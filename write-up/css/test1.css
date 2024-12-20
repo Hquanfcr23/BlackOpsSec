@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 40px 0;
+    line-height: 1.6;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử theo chiều dọc */
+    justify-content: center;
+    align-items: center;
+}
+
+h1, input {
+    margin-bottom: 20px;
+}
+
+#output {
+    width: 730px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #d4d4d4;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+#output p {
+    margin-bottom: 1.2em;
+    text-align: justify;
+}
+
+#output img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 20px 0;
+}
