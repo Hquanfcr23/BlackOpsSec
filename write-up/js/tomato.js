@@ -1,5 +1,5 @@
 window.onload = function() {
-    const fileUrl = '../doc/test1.docx'; // Đường dẫn tới file Word trong thư mục doc
+    const fileUrl = '../doc/Tomato.docx'; // Đường dẫn tới file Word trong thư mục doc
 
     fetch(fileUrl)
         .then(response => response.arrayBuffer())
